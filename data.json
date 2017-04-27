@@ -1,0 +1,77 @@
+{
+	"seller":{
+		"name":"名称一",
+		"type":0,
+		"sale-methods":"商家配送",
+		"sale-time":"27",
+		"sale-extra-price":7,
+		"notice":" 发票开票说明：根据相关税法规定，我司已于2017年1月1日起逐步在所有门店推行增值税电子普通发票，其法律效力与纸质发票相同，请扫描收银条上的二维码自行申请开具电子发票。",
+		"activities":[
+			{
+         		"ac-type":0,
+         		"ac-text":" 特价超人气套餐（2人份）"
+         	},
+         	{
+         		"ac-type":0,
+         		"ac-text":"特价苏丹王榴莲优惠套餐B爆款"
+         	},
+         	{
+         		"ac-type":0,
+         		"ac-text":" 特价超人气套餐（2人份）"
+         	},
+         	{
+         		"ac-type":0,
+         		"ac-text":"特价苏丹王榴莲优惠套餐B爆款"
+         	}
+
+		]
+
+
+
+	},
+	"goods":[
+		{
+			"name":"商品分类1",
+			"type":0,
+			"products":[
+				{
+					"name":"商品1",
+					"description":"描述1",
+					"sales":"200",
+					"feedback-rate":"100%",
+					"limit-sales":20,
+					"ori-price":200,
+					"current-price":100
+				},
+				{
+					"name":"商品1",
+					"description":"描述1",
+					"sales":"200",
+					"feedback-rate":"100%",
+					"limit-sales":20,
+					"ori-price":200,
+					"current-price":100
+				}
+
+			]
+		}
+	],
+	"ratings":[
+		{
+			"username":"匿名",
+			"user-img":"",
+			"rate-time":"",
+			"score":4.5,
+			"rate-type":"好评",
+			"text":"可能下雨，有点久，上次订的20分钟就到了",
+			"recommend":[
+				"A芝爱榴莲比萨[纯珍][12寸]",
+				"A超级至尊比萨[纯珍][12寸]",
+				"A经典意式热辣培根面",
+				"A香酥鸡米花"
+			]
+		}
+	]
+
+
+}

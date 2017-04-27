@@ -1,8 +1,8 @@
 {
-  "name": "sell-vue-practice",
+  "name": "pro2",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Jessie Zheng",
+  "author": "zxfjessica <zxf58459420@163.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

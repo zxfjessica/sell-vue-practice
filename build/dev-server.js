@@ -48,6 +48,35 @@ Object.keys(proxyTable).forEach(function (context) {
   app.use(proxyMiddleware(options.filter || context, options))
 })
 
+
+var appData = require('../data.json');
+var seller = appData.seller;
+var goods = appData.goods;
+var ratings = appData.ratings;
+
+var routerApi = express.Router();
+routerApi.get('/seller',function(req,res){
+  res.json({
+    errno:0,
+    data:seller
+  });
+});
+
+routerApi.get('/goods',function(req,res){
+  res.json({
+    errno:0,
+    data:goods
+  });
+});
+
+routerApi.get('/ratings',function(req,res){
+  res.json({
+    errno:0,
+    data:ratings
+  });
+});
+
+app.use('/api',routerApi);
 // handle fallback for HTML5 history API
 app.use(require('connect-history-api-fallback')())
 
