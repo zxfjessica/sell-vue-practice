@@ -50,3 +50,7 @@ table {
  
 /* Resetting HTML5! */
 section, article, aside, header, footer, nav, dialog, figure { display:block; }
+
+/* custom */
+body{font-family:"微软雅黑";}
+a{text-decoration:none;color:#000;}
