@@ -13,7 +13,7 @@
     <transition name="fade">
       <router-view></router-view>
     </transition>  
-    
+    <img src="./assets/logo.png" alt="">
   </div>
 </template>
 

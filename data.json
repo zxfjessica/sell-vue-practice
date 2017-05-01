@@ -1,7 +1,8 @@
 {
 	"seller":{
-		"name":"名称一",
-		"type":0,
+		"name":"必胜客",
+		"portrait":"http://fuss10.elemecdn.com/0/7b/23d537aaf7944521a73518d11c6f6jpeg.jpeg",
+		"type":1,
 		"sale-methods":"商家配送",
 		"sale-time":"27",
 		"sale-extra-price":7,
@@ -12,19 +13,20 @@
          		"ac-text":" 特价超人气套餐（2人份）"
          	},
          	{
-         		"ac-type":0,
+         		"ac-type":1,
          		"ac-text":"特价苏丹王榴莲优惠套餐B爆款"
          	},
          	{
-         		"ac-type":0,
+         		"ac-type":1,
          		"ac-text":" 特价超人气套餐（2人份）"
          	},
          	{
-         		"ac-type":0,
+         		"ac-type":2,
          		"ac-text":"特价苏丹王榴莲优惠套餐B爆款"
          	}
 
-		]
+		],
+		"starlevel":4
 
 
 

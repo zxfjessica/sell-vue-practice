@@ -52,5 +52,5 @@ table {
 section, article, aside, header, footer, nav, dialog, figure { display:block; }
 
 /* custom */
-body{font-family:"微软雅黑";}
+body{font-family:"微软雅黑";font-size: 16px;}
 a{text-decoration:none;color:#000;}
